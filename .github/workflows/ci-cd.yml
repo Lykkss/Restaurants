@@ -47,6 +47,7 @@ jobs:
 
       - name: Exécuter les tests
         run: dotnet test --no-build --configuration Release --verbosity normal
+
   docker-publish:
     name: Docker Build & Publish
     runs-on: ubuntu-latest
