@@ -139,5 +139,5 @@ jobs:
 
       - name: Résumé du déploiement
         run: |
-          echo "## Déploiement réussi 🚀" >> $GITHUB_STEP_SUMMARY
+          echo "## Déploiement réussi" >> $GITHUB_STEP_SUMMARY
           echo "**Image** : \`${{ env.IMAGE_NAME }}:${{ steps.image.outputs.tag }}\`" >> $GITHUB_STEP_SUMMARY
