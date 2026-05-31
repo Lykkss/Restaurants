@@ -1,6 +1,6 @@
 services:
   restaurants.presentation.api:
-    image: lykks/restaurant-api:latest
+    image: lykks/restaurant-api:sha-98e2a24
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
       - ConnectionStrings__RestaurantsDb=Server=sqlserver-container;Database=RestaurantDb;User Id=sa;Password=restaurantDb123!;Trusted_Connection=false;MultipleActiveResultSets=true;Encrypt=false;
